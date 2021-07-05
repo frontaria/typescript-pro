@@ -17,7 +17,7 @@ export default () => {
       <h2>Users page</h2>
       <ul>
         {users.map((user) => (
-          <li key={user.userId}>{getUserFullName(user)}</li>
+          <li key={user.id}>{getUserFullName(user)}</li>
         ))}
       </ul>
     </div>
